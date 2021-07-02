@@ -1,0 +1,164 @@
+1) Writing first Python code.
+
+Say "hello" to the world in Python.
+print('Hello, world!')
+
+Check the Python version.
+import_sys
+print(sys.version)
+
+Writing comments.
+print('Hello, world!') # this line creates a string # print('Hi')
+
+2) Types of objects in Python.
+
+Integer example.
+11
+
+Float example.
+11.1
+
+String example.
+"Hello, world!"
+
+Type of 12.
+type(12)
+
+Type of 12.1.
+type(12.1)
+
+Type of "Hello, world!".
+type("Hello, world!")
+
+Check system settings about float type.
+sys.float_info
+
+3) Converting from one object to another.
+
+Convert 2 to a float.
+float(2)
+
+Convert integer 2 to a float and check its type.
+type(float(2))
+
+Convert a string to an integer.
+int('1')
+
+Convert a string to an integer with error.
+int('1 or 2 people')
+
+Convert the string "1.1" into a float.
+float('1.1')
+
+Convert an integer to a string.
+str(1)
+
+Convert a float to a string.
+str(1.1)
+
+4) Boolean data type.
+
+Boolean value of true.
+True
+
+Boolean value of false.
+False
+
+Type of True.
+type(True)
+
+Type of False.
+type(False)
+
+Convert True to an integer.
+int(True)
+
+Convert 1 to a boolean.
+bool(1)
+
+Convert 0 to a boolean.
+bool(0)
+
+Convert True to a float.
+float(True)
+
+5) Exercise: Types
+
+What is the data type of a result of "6/2"?
+type("6/2")
+
+What is the type result of "6//2"? Note the double slash. 
+type("6//2") # int, as the double slashes stand for integer division.
+
+6) Expressions and Variables. 
+
+Addition operation expression. 
+43 + 60 + 16 + 41
+
+Subtraction operation expression.
+50 - 60
+
+Multiplication operation expression.
+5 * 5
+
+Division operation expression.
+25 / 5 AND 25 / 6 
+
+Using the double slash for integer division, where the result is rounded to the nearest integer. 
+25 // 5 AND 25 // 6
+
+7) Exercise: Expression
+
+Write an expression that calculates how many hours are in 160 minutes. 
+
+Code for expression.
+float (160/6)
+
+Mathematical expression.
+30 + 2 * 60
+
+Mathematical expression where parenthesis have priority.
+(30 + 2) * 60
+
+8) Variables.
+
+Store value into a variable. 
+x = 43 + 60 + 16 + 41
+
+See the value of x in a notebook. Print out the value in variable. 
+x
+
+Perform an operation on x to save result as a new variable. Use a new variable to store the result of the operation between variable and value. 
+y = x / 60
+y
+
+Overwrite variable with a new value.
+x = x / 60
+x
+
+Name variables meaningfully. 
+total_min = 43 + 42 + 57 # Total length of albums in minutes 
+total_ min 
+
+total_hours = total_min / 60 # Total length of albums in hours
+total_hours
+
+9) Exercise: Expression and Variables in Python 
+
+What is the value of x where x = 3 + 2 * 2?
+
+Write code.
+int (3 + 2 * 2)
+7
+
+What is the value of y where y = (3 + 2) * 2?
+
+Write Code.
+int ((3+2) * 2)
+10
+
+Value of z where z = x + y?
+
+Write code.
+int (7 + 10)
+17
