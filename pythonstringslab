@@ -1,0 +1,74 @@
+1) Indexing Strings
+
+Print first element in string.
+print(name[0])
+
+Print element on index 6 of string. 
+print(name[6])
+
+2) Find Length
+
+Find length of string.
+len("Kittens")
+
+3) Stride
+
+Take slice on variable name with only index 0 to index 3.
+name[0:4]
+
+Get every second element.
+name[::2]
+
+Get every second element from index 0 to 4.
+name[0:5:2]
+
+Concatenate two strings.
+statement=name+"is the best"
+statement
+
+Print string for 3 times.
+3*"Cats are cute"
+
+New line escape sequence. 
+print("cats \n are cute")
+
+Tap escape sequence.
+print("cats \t are cute") 
+
+Include backslash in string. 
+print("cats\\are cute")
+
+r will tell Python that string will be displayed as raw string.
+print(r"cats are cute")
+
+4) String Operations
+
+Convert all characters in string to upper case. 
+a="cats are cute"
+print("before upper",a)
+b=a.upper()
+print("After upper",b)
+
+Replace old substring with new substring.
+a="cats are cute"
+b=a.replace('cats','dogs')
+b
+
+Find the first substring in the string. 
+name="Bob Smith"
+name.find('Sm') OR name.find('Bob')
+
+Slice first 3 elements of d.
+d="ABCDEFG"
+print(d[:3])
+
+Use stride value of 2 to print out every second character of string e.
+e="abcdefg:
+print(e[::2])
+
+Print out a backslash.
+print(r"\ ")
+
+Convert variable f to upper case.
+f=cats
+f.upper()
