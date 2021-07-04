@@ -1,0 +1,23 @@
+1) Create a dictionary. 
+DICT={"key 1": 2, "key 2": "1", "key 3": [3,3,3], "key 4": (4,4,4), ('key 5'): 5, (0,1): 6}
+
+2) Access to value by key in strings.
+DICT["key1"]
+
+3) Access to value by key in tuple.
+DICT[(0,1)]
+
+4) Get all keys in a dictionary.
+'cats'.keys()
+
+5) Get all values in a dictionary.
+'cats'.values()
+
+6) Append a value with key to a dictonary.
+movie['Bob']='2007'
+
+7) Delete an entry.
+del(movie['Bob'])
+
+8) Verify if element is in a dictionary. 
+'Bob' in movie 
