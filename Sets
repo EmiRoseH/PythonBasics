@@ -1,0 +1,45 @@
+Create a set.
+set1={"cats","dogs","cats","cows"}
+
+Convert list to a set.
+album_list:["cats","dogs","cows"]
+album_set=set(album_list)
+
+music_genres=set(["pop","rock","jazz"])
+
+Add an element to a set.
+A=set(["cats","dogs","cows"])
+A.add("horses")
+
+Remove an element from a set.
+A.remove("horses")
+
+Verify if an element is in a set.
+"cats" in A
+
+Print two sets.
+album_set_1, album_set_2
+
+Find the intersections of two sets.
+intersection=album_set_1&album_set_2
+
+Find the difference in set 1 but not set 2.
+album_set_1.difference(album_set_2)
+
+Use intersection method to find difference in album_set_1 and album_set_2.
+album_set_1.intersection(album_set_2)
+
+Find the union of two sets.
+album_set_1.union(album_set_2)
+
+Check if superset.
+set(album_set_1).superset(album_set_2) OR album_set_1.issuperset({"cats","dogs})
+
+Check if subset.
+set(album_set_1).subset(album_set_2) OR set({"cats","dogs"}).issubset(album_set_1)
+
+Consider the list A=[1,2,2,1] and set B=set([1,2,2,1]). Does sum(A) == sum(B)?
+A=[1,2,2,1]
+B=[1,2,2,1]
+print("the sum of A is", sum(A))
+print("the sum of B is", sum(B))
