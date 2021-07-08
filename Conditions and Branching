@@ -1,0 +1,84 @@
+1) Comparison operators:
+Equal: ==
+Not equal: !=
+Greater than: >
+Less than: <
+Greater than or equal to: >=
+Less than or equal to: <=
+
+2) Conditions equal:
+i=5
+i==6
+False
+
+3) Greater than sign:
+i=6
+i<5
+True
+
+4) Not equal to:
+i=6
+i!=6
+False
+
+5) If statement example:
+age=19
+#age=18
+
+#expression that can be true or false
+if age > 18:
+  #within an indent, we have the expression that will run if the condition is true
+  print("you can enter")
+#the statements after the if statement will run regardless is the condition is true or false
+print("move on")
+
+6) Else statement example:
+age=18
+#age=19
+if age > 18:
+  print("you can enter")
+else:
+  print("go see Green Day")
+print("move on")
+
+7) Elif statement example:
+age=18
+if age > 18
+  print("you can enter")
+elif age==18:
+  print("go see The Strokes")
+else:
+  print("go see Green Day")
+print("move on")
+
+8) Condition statement example:
+album_year: 1983
+album_year: 1970
+if album_year > 1980:
+  print("Album year is greater than 1980")
+else:
+  print("less than 1980")
+print('do something..')
+
+9) Logical operators: 
+and
+or 
+not
+
+10) Condition statement example:
+album_year=1980
+if(album_year>1979) and (album_year<1990):
+  print("Album year was in between 1980 and 1989")
+print("")
+print("Do Stuff..")
+
+11) album_year=1980
+if(album_year>1979) and (album_year<1990):
+  print("Album was not made in the 1980's")
+else:
+  print("The album was made in the 1980's")
+  
+12) album_year=1983
+if not(album_year=='1984'):
+  print("Album year is not 1984")
+
