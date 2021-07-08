@@ -1,0 +1,30 @@
+1) Write a for loop that prints out all the elements between -5 and 5 using the range function.
+for i in range(-4,5):
+  print(i)
+  
+2) Print out genres in a list.
+Genres=['rock','R&B','Soundtrack','R&B','soul','pop']
+for Genre in Genres:
+  print(Genres)
+  
+3) Write a while loop to display the values of the Rating of an album playlist stored in the list PlayListRatings. If the score is less than 6, exit the loop. 
+PlayListRatings=[10,9.5,10,8,7,5]
+i=0
+Rating=PlayListRatings[0]
+while(i<len(PlayListRatings)and Rating>=6):
+  print(Rating)
+  i=i+1
+  
+4) Write a while loop to copy the strings 'orange'of the list of squares to the list new_squares.
+squares=['orange','orange','purple','blue','orange']
+new_squares=[]
+i=0
+while(i<len(squares)and squares[i]=='orange'):
+  new_squares.append(squares[i])
+  i=i+1
+print(new_squares)
+
+5) Write a for loop that prints out:
+squares=['red','yellow','green','purple','blue]
+for square in squares:
+  print(squares)
