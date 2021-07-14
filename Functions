@@ -1,0 +1,122 @@
+Functions
+
+1) Function example: Add 1 to a and store as b
+def add(a):
+    """
+    add 1 to a
+    """
+    b=a+1
+    print(a,"if you add one",b)
+    return(b)
+ 
+2) Get help on add function.
+help(add)
+
+3) Call the function add()
+add(1)
+
+4) Define a function for multiple two numbers.
+def Mult(a,b):
+    c=a+b
+    return(c)
+    print('This is not printed')
+  
+ result=Mult(12,2)
+ print(result)
+ 
+5) Use mult() to multiply two integers.
+ Mult(2,3)
+ 
+6) Use mult() to multiply two floats.
+ Mult(10.0,3.14)
+ 
+7) Use mult() to multiply two different type values together.
+ Mult(2,"cats")
+ 
+ Variables
+ 
+1) Function definition.
+ def square(a):
+ 
+    # Local variable b
+    b=1
+    c=a*a+b
+    print(a,"if you square",c)
+    return(c)
+    
+2) Initializes Global variable. 
+  x=3
+  # Makes function call and return function a y
+  y=square(x)
+  y
+  
+  3) Directly enter a number as parameter.
+  square(2)
+  
+4) Define functions, one with return value None and other without return value.
+  def CC():
+      print('Cool Cats')
+      
+  def CC1():
+      print('Cool Cats')
+      return(None)
+      
+5) See the output.
+   CC() OR CC1()
+   
+6) See what functions returns are.
+   print(CC())
+   print(CC1())
+   
+7) Define the function for combining strings.
+def con(a,b):
+    return(a+b)
+    
+8) Test on the con() function.
+con("This","is")
+
+9) Example Block 1:
+a1=4
+b1=5
+c1=a1+b1+2*a1*b1-1
+if(c1<0):
+  c1=0
+else:
+  c1=5
+c1
+
+Block 2:
+a2=0
+b2=0
+c2=a2+b2+2*a2*b2-1
+if(c2<0):
+  c2=0
+else: 
+  c2=5
+c2
+
+Make a Function for the calculation above.
+def Equation(a,b):
+  c=a+b+2*a*b-1
+  if(c<0):
+    c=0
+  else:
+    c=5
+  return(c)
+  
+  Block 3:
+  a1=4
+  b1=5
+  c1=Equation(a1,b1)
+  c1
+  
+  Block 4:
+  a2=0
+  b2=0
+  c2=Equation(a2,b2)
+  c2
+  
+Pre-defined functions:
+
+10) Build-in function print()
+
