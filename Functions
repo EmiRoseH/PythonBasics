@@ -119,4 +119,19 @@ def Equation(a,b):
 Pre-defined functions:
 
 10) Build-in function print()
+album_ratings=[10.0,9.0,8.0]
+print(album_ratings)
 
+11) Use sum() to add every element in a list or tuple together.
+sum(album_ratings)
+
+12) Show the length of a list or tuple.
+len(album_ratings)
+
+13) Print a loop using for loop.
+def PrintList(the_list):
+    for element in the_list:
+        print(element)
+        
+14) Implement the printlist function.
+PrintList(['1',1,'the man',"abc")]
