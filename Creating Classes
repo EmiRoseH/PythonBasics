@@ -96,7 +96,14 @@ class Rectangle(object):
 
 Lab Test
 
-1) class analysedText(object):
+1) Use the following methods:
+Constructor: take 'text' make it lower case and remove all puncuation. Puncuation includes period (.), exclamation mark (!), comma (,), and question mark (?).
+freqAll: returns a dictionary of all unique words in the text along with the number of their occurences.
+freqOf: returns the frequency of the word passed in argument.
+
+Useful functions: replace(), lower(), split(), count().
+
+class analysedText(object):
          def__init__(self,text):
                 pass
          def freqAll(self):
