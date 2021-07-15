@@ -93,3 +93,44 @@ class Rectangle(object):
  
  Create a new object rectangle.
  FatYellowRectangle=Rectangle(20,5,'yellow')
+
+Lab Test
+
+1) class analysedText(object):
+         def__init__(self,text):
+                pass
+         def freqAll(self):
+                pass
+         def freq0f(self,word):
+                pass
+                
+  Answer:
+  
+  class analysedText(object):
+     def__init__(self,text):
+        #remove puncuation
+        formattedText=text.replace('.',' ').replace('!',' ').replace('?',' ').replace(',',' )
+        
+        #make text lowercase
+        formattedText=formattedText.lower()
+        
+        self.fmtText=formattedText
+     
+      def freqAll(self):
+         #split text into words
+         wordList=self.fmtText.split(' ')
+         
+         # Create dictionary
+         freqMap={}
+         for word in set(wordList): #use set to remove duplicates in list
+                freqMap[word]=wordList.count(word)
+          return freqMap
+          
+        def freq0f(self,word):
+                #get frequency map
+                freqDict=self.freqAll()
+                
+                if word in freqDict:
+                        return freqDict[word]
+                else:
+                        return 0
