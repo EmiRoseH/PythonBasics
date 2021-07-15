@@ -135,3 +135,17 @@ def PrintList(the_list):
         
 14) Implement the printlist function.
 PrintList(['1',1,'the man',"abc")]
+
+Functions Quiz:
+
+1) Come up with a function that divides the first input by the second input.
+def div(a,b):
+    return(a/b)
+    
+2) Can the con function be used to add two integers or strings?
+Yes, for example:
+con(2,2)
+
+3) Can the con function be used to concatenate lists or tuples?
+Yes, for example:
+con(['a',1],['b',1])
